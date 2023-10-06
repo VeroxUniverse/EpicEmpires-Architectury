@@ -1,0 +1,61 @@
+[17:15:57] [main/INFO] (cpw.mods.modlauncher.Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.20.1-5, --assetsDir, C:\Users\StauP\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 47.1.79, --fml.fmlVersion, 47.1.47, --fml.mcVersion, 1.20.1, --fml.mcpVersion, 20230612.114412, --mixin.config, epicempires-common.mixins.json]
+[17:15:57] [main/INFO] (cpw.mods.modlauncher.Launcher) ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.8.1 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.LaunchServiceHandler) Found launch services [minecraft,forgeclient,forgegametestserverdev,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,forgegametestserveruserdev]
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.NameMappingServiceHandler) Found naming services : [srgtomcp,srgtoyarn]
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.LaunchPluginHandler) Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,unprotect,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServicesHandler) Discovering transformation services
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path GAMEDIR is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path MODSDIR is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run\mods
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path CONFIGDIR is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run\config
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path FMLCONFIG is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run\config\fml.toml
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServicesHandler) Found additional transformation services from discovery services: 
+[17:15:57] [main/INFO] (net.minecraftforge.fml.loading.ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[17:15:57] [main/INFO] (EARLYDISPLAY) Trying GL version 4.6
+[17:15:57] [main/INFO] (EARLYDISPLAY) Requested GL version 4.6 got version 4.6
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServicesHandler) Found transformer services : [mixin,ForgeLoomMixinRemapperInjector,fml]
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServicesHandler) Transformation services loading
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Loading service mixin
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Loaded service mixin
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Loading service ForgeLoomMixinRemapperInjector
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Loaded service ForgeLoomMixinRemapperInjector
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Loading service fml
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.LauncherVersion) Found FMLLauncher version 47.1
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) FML 47.1 loading
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) FML found ModLauncher version : 10.0.10+10.0.10+main.22f00f84
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) Found Runtime Dist Cleaner
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) Found ForgeSPI package specification 5
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Loaded service fml
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServicesHandler) Configuring option handling for services
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServicesHandler) Transformation services initializing
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Initializing transformation service mixin
+[17:15:57] [main/DEBUG] (mixin) MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@7ef8899d
+[17:15:57] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/StauP/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.10/a8cf27a2274cbb5030707cf66df222a766435a4/mixin-patched-0.8.5.10.jar%23124!/ Service=ModLauncher Env=CLIENT
+[17:15:57] [main/DEBUG] (mixin) Initialising Mixin Platform Manager
+[17:15:57] [main/DEBUG] (mixin) Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17:15:57] [main/DEBUG] (mixin) Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17:15:57] [main/DEBUG] (mixin) MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17:15:57] [main/DEBUG] (mixin) Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17:15:57] [main/DEBUG] (mixin) MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Initialized transformation service mixin
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Initializing transformation service ForgeLoomMixinRemapperInjector
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Initialized transformation service ForgeLoomMixinRemapperInjector
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Initializing transformation service fml
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLServiceProvider) Setting up basic FML game directories
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path GAMEDIR is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path MODSDIR is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run\mods
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path CONFIGDIR is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run\config
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLPaths) Path FMLCONFIG is C:\Users\StauP\IdeaProjects\EpicEmpires\forge\run\config\fml.toml
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLServiceProvider) Loading configuration
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLServiceProvider) Preparing ModFile
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLServiceProvider) Preparing launch handler
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) Using forgeclientuserdev as launch service
+[17:15:57] [main/DEBUG] (AXFORM) Set name handler Service NameHandler from mcp to srg
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.FMLLoader) Received command line version data  : VersionInfo[forgeVersion=47.1.79, fmlVersion=47.1.47, mcVersion=1.20.1, mcpVersion=20230612.114412]
+[17:15:57] [main/DEBUG] (net.minecraftforge.fml.loading.RuntimeDistCleaner) Configuring for Dist CLIENT
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.TransformationServiceDecorator) Initialized transformation service fml
+[17:15:57] [main/DEBUG] (cpw.mods.modlauncher.NameMappingServiceHandler) Current naming domain is 'mcp'
+[17:15:57] [pool-5-thread-1/INFO] (EARLYDISPLAY) GL info: NVIDIA GeForce RTX 3080/PCIe/SSE2 GL version 4.6.0 NVIDIA 537.42, NVIDIA Corporation

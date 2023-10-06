@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "epicempires",
+  "version": "${version}",
+
+  "name": "EpicEmpires",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "epicempires.mixins.json",
+    "epicempires-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.23",
+    "minecraft": ">=1.20.1",
+    "azurelibarmor": ">=1.0.3"
+  }
+}

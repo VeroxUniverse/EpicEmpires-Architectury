@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/EpicEmpires.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/EpicEmpires.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/EpicEmpires.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/EpicEmpires.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/EpicEmpires.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/EpicEmpires.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/EpicEmpires.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/EpicEmpires.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/EpicEmpires.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/EpicEmpires.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/EpicEmpires.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/EpicEmpires.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/EpicEmpires.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/EpicEmpires.forge.test.iml" />
+    </modules>
+  </component>
+</project>
