@@ -23,6 +23,8 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+
+    modImplementation "mod.azure.azurelibarmor:azurelibarmor-fabric-${rootProject.minecraft_version}:${rootProject.azurelib_version}"
 }
 
 processResources {

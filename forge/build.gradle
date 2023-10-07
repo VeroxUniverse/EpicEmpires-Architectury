@@ -24,6 +24,8 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
+
+    modImplementation "mod.azure.azurelibarmor:azurelibarmor-neo-${rootProject.minecraft_version}:${rootProject.azurelib_version}"
 }
 
 processResources {
